@@ -13,7 +13,7 @@ extension DesignSystem {
     struct Typography: Equatable {
         let font: Font
 
-        init(font: Font) {
+        public init(font: Font) {
             self.font = font
         }
 
