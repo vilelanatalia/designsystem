@@ -11,7 +11,7 @@ import SwiftUI
 @available(macOS 13.0, *)
 
 extension DesignSystem {
-    struct Colors {
+    public struct Colors {
         // MARK: - Brand colors
         static let brandPrimary = Color("Primary")
         static let brandSecondary1 = Color("Secondary1")
