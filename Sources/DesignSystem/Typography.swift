@@ -11,9 +11,10 @@ import SwiftUI
 @available(macOS 13.0, *)
 extension DesignSystem {
     struct Typography: Equatable {
+        
         let font: Font
 
-        public init(font: Font) {
+        internal init(font: Font) {
             self.font = font
         }
 
