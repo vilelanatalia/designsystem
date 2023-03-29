@@ -14,11 +14,11 @@ extension DesignSystem {
         
         let font: Font
 
-        internal init(font: Font) {
+        public init(font: Font) {
             self.font = font
         }
 
-        struct Text {
+        public struct Text {
             static let caption2 = Typography(font: .system(size: 11))
             static let caption1 = Typography(font: .system(size: 12))
             static let footnote = Typography(font: .system(size: 13))
@@ -32,9 +32,9 @@ extension DesignSystem {
             static let largeTitle = Typography(font: .system(size: 34))
         }
 
-        static let navbarTitle = Font.system(size: 18)
-        static let navbarLargeTitle = Font.system(size: 40)
-        static let tabItem = Font.system(size: 14)
+        public static let navbarTitle = Font.system(size: 18)
+        public static let navbarLargeTitle = Font.system(size: 40)
+        public static let tabItem = Font.system(size: 14)
     }
 }
 
